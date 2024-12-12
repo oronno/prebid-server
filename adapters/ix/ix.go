@@ -46,6 +46,8 @@ type ixRespExt struct {
 }
 
 func (a *IxAdapter) MakeRequests(request *openrtb2.BidRequest, reqInfo *adapters.ExtraRequestInfo) ([]*adapters.RequestData, []error) {
+
+	// This is a test change
 	requests := make([]*adapters.RequestData, 0, len(request.Imp))
 	errs := make([]error, 0)
 
