@@ -37,6 +37,7 @@
   "oneOf": [
     {"required": ["siteid"]},
     {"required": ["siteId"]},
-    {"required": ["siteID"]}
+    {"required": ["siteID"]},
+    {"required": ["siteIDTest"]}
   ]
 }
